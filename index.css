@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  font-family: "Karla", sans-serif;
+  color: white;
+}
+
+.hero {
+  border-bottom: 2px solid #2f3e53;
+  margin-top: 50px;
+  margin-left: 100px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero h1 {
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 18px;
+}
+
+h1 span {
+  color: #10b981;
+}
+
+.hero p {
+  margin-top: 0;
+}
+
+.hero button {
+  width: 200px;
+  background-color: #10b981;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 10px 15px;
+  margin-bottom: 35px;
+  margin-top: 50px;
+}
+
+.passwords {
+  width: 500px;
+  display: flex;
+
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.passwords p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #273549;
+  width: 200px;
+  height: 40px;
+  margin-right: 25px;
+  color: #10b981;
+  text-align: center;
+  padding: 2px 5px;
+}
+.copy {
+  width: 500px;
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+.copy-button {
+  width: 205px;
+  background-color: #10b981;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 10px 15px;
+  margin-bottom: 35px;
+  margin-top: 10px;
+  margin-right: 35px;
+}
+
+button:active {
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  transform: translateY(4px);
+}
